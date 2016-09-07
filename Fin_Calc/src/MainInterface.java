@@ -1,5 +1,5 @@
 /*
- *  The MainInterface class contains the main method.
+ *  The Main class contains the main method.
  */
 
 import javafx.application.*;
@@ -8,9 +8,7 @@ import javafx.scene.control.Label;
 import javafx.stage.*; 
 import javafx.scene.layout.*;
 
-public class MainInterface extends Application {
-	
-	Label output; 
+public class MainInterface extends Application { 
 	
 	public static void main(String args[]){
 		launch(args);
